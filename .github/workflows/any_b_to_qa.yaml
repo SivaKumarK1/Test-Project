@@ -5,8 +5,7 @@ on:
     inputs:
       deploy_branch:
         description: 'Branch to deploy'
-        type: branch 
-        required: true
+        type: branch
 jobs:
   build:
     runs-on: ubuntu-latest
